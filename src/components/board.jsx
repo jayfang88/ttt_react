@@ -105,5 +105,4 @@ export class Board extends React.Component {
             </>
         )
     }
-
 }
