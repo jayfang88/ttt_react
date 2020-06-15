@@ -5,6 +5,9 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { Board } from './components/board';
 import { Scoreboard } from './components/scoreboard';
 
+import './styles/board.css';
+import './styles/box.css';
+import './styles/buttons.css';
 
 class App extends React.Component {
     render() {
