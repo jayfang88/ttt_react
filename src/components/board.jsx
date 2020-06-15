@@ -39,7 +39,7 @@ export class Board extends React.Component {
         })
     }
 
-    handleBoardRestart() {
+    handleBoardRestart = () => {
         this.setState({
             boxes: Array(9).fill(null),
             history: [],
