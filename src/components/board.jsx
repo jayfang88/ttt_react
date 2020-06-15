@@ -92,7 +92,7 @@ export class Board extends React.Component {
                     <h2 className='board-heading'>Moves history:</h2>
                     <ul className='board-historyList'>
                         {this.state.history.length === 0 && <span>No moves to show.</span>}
-                        {this.state.history.length != 0 && this.state.history.map((move, index) => {
+                        {this.state.history.length !== 0 && this.state.history.map((move, index) => {
                             return <li key={index}>Move {index + 1}: <strong>{move}</strong></li>
                         })}
                     </ul>
