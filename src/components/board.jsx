@@ -98,7 +98,7 @@ export class Board extends React.Component {
                     </ul>
                 </div>
 
-                {winner && <div className='board-footer'>
+                {(winner || isFilled) && <div className='board-footer'>
                     <button className='btn' onClick={this.handleBoardRestart}>Start new game</button>
                 </div>}
             </div>
